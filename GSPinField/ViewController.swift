@@ -66,7 +66,6 @@ class ViewController: UIViewController {
         pinField.updateProperties { properties in
             properties.isSecure = self.secureSwitch.isOn
             properties.token = "◦"
-            properties.isUppercased = false
             properties.validCharacters = "1234567890"
         }
         
