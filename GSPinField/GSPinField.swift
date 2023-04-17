@@ -92,6 +92,7 @@ public class GSPinField : UITextField {
         get { return invisibleText }
         set {
             self.invisibleField.text = newValue
+            self.reloadAppearance()
         }
     }
     
